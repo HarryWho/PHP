@@ -1,0 +1,10 @@
+// remove margins and padding from all elements
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   font-family: var(--font-family-monospace);
+   background: var(--dark);
+}

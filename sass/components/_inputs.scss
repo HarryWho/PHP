@@ -1,0 +1,51 @@
+
+
+// input styes
+input[type=text], input[type=password], input[type=email]{
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 10px;    
+
+}
+
+// Button styles
+
+.btn {
+    border: 0;
+    padding: 3px;
+}
+
+.btn-sm{
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+}
+.btn-md{
+    height: 30px;
+    width: 70px;
+    font-size: 12px;
+}
+.btn-lg{
+    height: 40px;
+    width: 90px;
+    font-size: 14px;
+}
+
+
+.btn-round-sm{
+    border-radius: 3px;
+}
+.btn-round-md{
+    border-radius: 6px;
+}
+.btn-round-lg{
+    border-radius: 8px;
+}
+.btn-red{
+    background: var(--red);
+}
+.btn-green{
+    background: var(--green);
+}

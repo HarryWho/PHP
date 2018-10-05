@@ -1,0 +1,17 @@
+
+.register{
+    width: 300px;
+    display: block;
+    padding: 10px;
+    margin: 50px auto;
+    border: 1px outset;
+    background: #000 url(/img/architecture-buildings-city-408951.jpg);
+    background-blend-mode: hard-light;
+    background-size: cover;
+    label{
+        font-size: 16px;
+        padding: 10px 0;
+        color: var(--info);
+        font-weight: 600;
+    }
+}

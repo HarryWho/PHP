@@ -1,0 +1,189 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-monospace);
+  background: var(--dark);
+}
+
+input[type=text], input[type=password], input[type=email] {
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: 0;
+  padding: 3px;
+}
+
+.btn-sm {
+  height: 20px;
+  width: 50px;
+  font-size: 10px;
+}
+
+.btn-md {
+  height: 30px;
+  width: 70px;
+  font-size: 12px;
+}
+
+.btn-lg {
+  height: 40px;
+  width: 90px;
+  font-size: 14px;
+}
+
+.btn-round-sm {
+  border-radius: 3px;
+}
+
+.btn-round-md {
+  border-radius: 6px;
+}
+
+.btn-round-lg {
+  border-radius: 8px;
+}
+
+.btn-red {
+  background: var(--red);
+}
+
+.btn-green {
+  background: var(--green);
+}
+
+/* navigation menu */
+header {
+  background: rgba(85, 213, 170, 0.7);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.logo {
+  float: left;
+  padding: 15px 0;
+  color: #444;
+}
+
+.logo a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5px;
+  padding-top: 18px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+nav a:hover {
+  color: #000;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  -webkit-transition: width ease-in-out 300ms;
+  transition: width ease-in-out 300ms;
+}
+
+/* register user */
+.register {
+  width: 300px;
+  display: block;
+  padding: 10px;
+  margin: 50px auto;
+  border: 1px outset;
+  background: #000 url(/img/architecture-buildings-city-408951.jpg);
+  background-blend-mode: hard-light;
+  background-size: cover;
+}
+
+.register label {
+  font-size: 16px;
+  padding: 10px 0;
+  color: var(--info);
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
